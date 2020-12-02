@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func RawFile(file string) []string {
+func FileRows(file string) []string {
 	projectDir, _ := os.Getwd()
 	filePath := path.Join(projectDir, file)
 	inpBuff, err := ioutil.ReadFile(filePath)
