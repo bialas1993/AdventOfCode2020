@@ -1,0 +1,37 @@
+name: AdventOfCode Calendar
+
+on:
+  schedule:
+    - cron:  '* * * 12 *'
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: ${{ github.head_ref }}
+
+    - name: Generate README file
+      run: |
+        DAY=$(date +%d)
+        URL=https://adventofcode.com/2020/day/$(date +%e |  sed -e 's/ //g')
+        echo Fetching day $DAY [$URL]
+        DAY_STATUS=$(curl --write-out '%{http_code}' --silent --output /dev/null $URL)
+        test $DAY_STATUS -ne 200 && echo "Not found day $DAY"
+        test $DAY_STATUS -ne 200 && exit 1
+        TITLE=$(curl --silent $URL -o - | grep -o "<h2>--- Day .*---</h2>" | sed "s/<h2>--- Day //g" | sed "s/---<\/h2>//g" | cut -d':' -f2)
+        echo "Adding task No.$DAY $TITLE to resolve"
+        DAY_ROWS=$(cat README.md | grep "$DAY" | wc -l)
+        test $DAY_ROWS -eq 0 && echo -e "\r| [$DAY]($URL)  | $TITLE | [GO](day$DAY/1/main.go) / [GO](day$DAY/2/main.go)   |   ✗ / ✗  |" >> README.md
+
+    - name: Check README
+      run: cat README.md
+
+    - name: Commit and Push new README.md to the repository
+      uses: mikeal/publish-to-github-action@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
