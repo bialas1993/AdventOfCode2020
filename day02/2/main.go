@@ -21,7 +21,7 @@ func parseRow(line string) (int, int, string, string) {
 
 func main() {
 	correctPasswords := 0
-	for _, row := range utils.FileRows("/day02/2/input.txt") {
+	for _, row := range utils.FileRows("/day02/1/input.txt") {
 		i, j, char, password := parseRow(row)
 
 		if (2<<(strings.Index(password[i-1:i], char)*-1))<<(strings.Index(password[j-1:j], char)*-1) == 4 {

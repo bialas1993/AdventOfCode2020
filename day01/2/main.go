@@ -10,7 +10,7 @@ import (
 func main() {
 	numbers := []int{}
 
-	for _, number := range utils.FileRows("/day01/2/input.txt") {
+	for _, number := range utils.FileRows("/day01/1/input.txt") {
 		i, err := strconv.Atoi(number)
 		if err == nil {
 			numbers = append(numbers, i)
