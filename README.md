@@ -17,3 +17,4 @@ I might use various languages to provide solutions... will see how it goes ;).
 | [04](https://adventofcode.com/2020/day/4)  |  Passport Processing  | [GO](day04/1/main.go) / [GO](day04/2/main.go)   |   ✔ / ✔  |
 | [05](https://adventofcode.com/2020/day/5)  |  Binary Boarding  | [GO](day05/1/main.go) / [GO](day05/2/main.go)   |   ✗ / ✗  |
 | [06](https://adventofcode.com/2020/day/6)  |  Custom Customs  | [GO](day06/1/main.go) / [GO](day06/2/main.go)   |   ✗ / ✗  |
+| [07](https://adventofcode.com/2020/day/7)  |  Handy Haversacks  | [GO](day07/1/main.go) / [GO](day07/2/main.go)   |   ✗ / ✗  |
