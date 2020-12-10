@@ -20,3 +20,4 @@ I might use various languages to provide solutions... will see how it goes ;).
 | [07](https://adventofcode.com/2020/day/7)  |  Handy Haversacks  | [GO](day07/1/main.go) / [GO](day07/2/main.go)   |   ✗ / ✗  |
 | [08](https://adventofcode.com/2020/day/8)  |  Handheld Halting  | [GO](day08/1/main.go) / [GO](day08/2/main.go)   |   ✗ / ✗  |
 | [09](https://adventofcode.com/2020/day/9)  |  Encoding Error  | [GO](day09/1/main.go) / [GO](day09/2/main.go)   |   ✗ / ✗  |
+| [10](https://adventofcode.com/2020/day/10)  |  Adapter Array  | [GO](day10/1/main.go) / [GO](day10/2/main.go)   |   ✗ / ✗  |
