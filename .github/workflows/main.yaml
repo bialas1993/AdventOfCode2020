@@ -26,7 +26,7 @@ jobs:
         TITLE=$(curl --silent $URL -o - | grep -o "<h2>--- Day .*---</h2>" | sed "s/<h2>--- Day //g" | sed "s/---<\/h2>//g" | cut -d':' -f2)
         echo "Adding task No.$DAY $TITLE to resolve"
         DAY_ROWS=$(cat README.md | grep "$DAY" | wc -l)
-        test $DAY_ROWS -eq 0 && echo -e "\r| [$DAY]($URL)  | $TITLE | [GO](day$DAY/1/main.go) / [GO](day$DAY/2/main.go)   |   ✗ / ✗  |" >> README.md
+        test $DAY_ROWS -eq 0 && printf "\n| [$DAY]($URL)  | $TITLE | [GO](day$DAY/1/main.go) / [GO](day$DAY/2/main.go)   |   ✗ / ✗  |" >> README.md
 
     - name: Check README
       run: cat README.md
