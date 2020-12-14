@@ -15,13 +15,13 @@ I might use various languages to provide solutions... will see how it goes ;).
 | [02](https://adventofcode.com/2020/day/2)  | Password Philosophy                   | [GO](day02/1/main.go) / [GO](day02/2/main.go)   |   ✔ / ✔  |
 | [03](https://adventofcode.com/2020/day/3)  |  Toboggan Trajectory  | [GO](day03/1/main.go) / [GO](day03/2/main.go)   |   ✔ / ✔  |
 | [04](https://adventofcode.com/2020/day/4)  |  Passport Processing  | [GO](day04/1/main.go) / [GO](day04/2/main.go)   |   ✔ / ✔  |
-| [05](https://adventofcode.com/2020/day/5)  |  Binary Boarding  | [GO](day05/1/main.go) / [GO](day05/2/main.go)   |   ✗ / ✗  |
-| [06](https://adventofcode.com/2020/day/6)  |  Custom Customs  | [GO](day06/1/main.go) / [GO](day06/2/main.go)   |   ✗ / ✗  |
-| [07](https://adventofcode.com/2020/day/7)  |  Handy Haversacks  | [GO](day07/1/main.go) / [GO](day07/2/main.go)   |   ✗ / ✗  |
-| [08](https://adventofcode.com/2020/day/8)  |  Handheld Halting  | [GO](day08/1/main.go) / [GO](day08/2/main.go)   |   ✗ / ✗  |
-| [09](https://adventofcode.com/2020/day/9)  |  Encoding Error  | [GO](day09/1/main.go) / [GO](day09/2/main.go)   |   ✗ / ✗  |
-| [10](https://adventofcode.com/2020/day/10)  |  Adapter Array  | [GO](day10/1/main.go) / [GO](day10/2/main.go)   |   ✗ / ✗  |
-| [11](https://adventofcode.com/2020/day/11)  |  Seating System  | [GO](day11/1/main.go) / [GO](day11/2/main.go)   |   ✗ / ✗  |
-| [12](https://adventofcode.com/2020/day/12)  |  Rain Risk  | [GO](day12/1/main.go) / [GO](day12/2/main.go)   |   ✗ / ✗  |
-| [13](https://adventofcode.com/2020/day/13)  |  Shuttle Search  | [GO](day13/1/main.go) / [GO](day13/2/main.go)   |   ✗ / ✗  |
-| [14](https://adventofcode.com/2020/day/14)  |  Docking Data  | [GO](day14/1/main.go) / [GO](day14/2/main.go)   |   ✗ / ✗  |
+| [05](https://adventofcode.com/2020/day/5)  |  Binary Boarding  | [GO](day05/1/main.go) / [GO](day05/2/main.go)   |   ✔ / ✔  |
+| [06](https://adventofcode.com/2020/day/6)  |  Custom Customs  | [GO](day06/1/main.go) / [GO](day06/2/main.go)   |   ✔ / ✔  |
+| [07](https://adventofcode.com/2020/day/7)  |  Handy Haversacks  | [GO](day07/1/main.go) / [GO](day07/2/main.go)   |   ✔ / ✔  |
+| [08](https://adventofcode.com/2020/day/8)  |  Handheld Halting  | [GO](day08/1/main.go) / [GO](day08/2/main.go)   |   ✔ / ✔ |
+| [09](https://adventofcode.com/2020/day/9)  |  Encoding Error  | [GO](day09/1/main.go) / [GO](day09/2/main.go)   |   ✔ / ✔  |
+| [10](https://adventofcode.com/2020/day/10)  |  Adapter Array  | [GO](day10/1/main.go) / [GO](day10/2/main.go)   |   ✔ / ✔  |
+| [11](https://adventofcode.com/2020/day/11)  |  Seating System  | [GO](day11/1/main.go) / [GO](day11/2/main.go)   |   ✗ / ✗  |
+| [12](https://adventofcode.com/2020/day/12)  |  Rain Risk  | [GO](day12/1/main.go) / [GO](day12/2/main.go)   |   ✗ / ✗  |
+| [13](https://adventofcode.com/2020/day/13)  |  Shuttle Search  | [GO](day13/1/main.go) / [GO](day13/2/main.go)   |   ✗ / ✗  |
+| [14](https://adventofcode.com/2020/day/14)  |  Docking Data  | [GO](day14/1/main.go) / [GO](day14/2/main.go)   |   ✗ / ✗  |
