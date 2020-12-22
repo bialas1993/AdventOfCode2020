@@ -30,3 +30,4 @@ I might use various languages to provide solutions... will see how it goes ;).
 | [17](https://adventofcode.com/2020/day/17)  |  Conway Cubes  | [GO](day17/1/main.go) / [GO](day17/2/main.go)   |   ✗ / ✗  |
 | [18](https://adventofcode.com/2020/day/18)  |  Operation Order  | [GO](day18/1/main.go) / [GO](day18/2/main.go)   |   ✗ / ✗  |
 | [21](https://adventofcode.com/2020/day/21)  |  Allergen Assessment  | [GO](day21/1/main.go) / [GO](day21/2/main.go)   |   ✗ / ✗  |
+| [22](https://adventofcode.com/2020/day/22)  |  Crab Combat  | [GO](day22/1/main.go) / [GO](day22/2/main.go)   |   ✗ / ✗  |
