@@ -32,3 +32,4 @@ I might use various languages to provide solutions... will see how it goes ;).
 | [21](https://adventofcode.com/2020/day/21)  |  Allergen Assessment  | [GO](day21/1/main.go) / [GO](day21/2/main.go)   |   ✗ / ✗  |
 | [22](https://adventofcode.com/2020/day/22)  |  Crab Combat  | [GO](day22/1/main.go) / [GO](day22/2/main.go)   |   ✗ / ✗  |
 | [23](https://adventofcode.com/2020/day/23)  |  Crab Cups  | [GO](day23/1/main.go) / [GO](day23/2/main.go)   |   ✗ / ✗  |
+| [24](https://adventofcode.com/2020/day/24)  |  Lobby Layout  | [GO](day24/1/main.go) / [GO](day24/2/main.go)   |   ✗ / ✗  |
