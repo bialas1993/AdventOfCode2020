@@ -33,3 +33,4 @@ I might use various languages to provide solutions... will see how it goes ;).
 | [22](https://adventofcode.com/2020/day/22)  |  Crab Combat  | [GO](day22/1/main.go) / [GO](day22/2/main.go)   |   ✗ / ✗  |
 | [23](https://adventofcode.com/2020/day/23)  |  Crab Cups  | [GO](day23/1/main.go) / [GO](day23/2/main.go)   |   ✗ / ✗  |
 | [24](https://adventofcode.com/2020/day/24)  |  Lobby Layout  | [GO](day24/1/main.go) / [GO](day24/2/main.go)   |   ✗ / ✗  |
+| [25](https://adventofcode.com/2020/day/25)  |  Combo Breaker  | [GO](day25/1/main.go) / [GO](day25/2/main.go)   |   ✗ / ✗  |
